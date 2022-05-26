@@ -1,0 +1,31 @@
+.hero-main{
+    background-image: url("../assets/images/heroBack.svg");
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    height:90vh;
+  }
+
+  .hero-img {
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+  }
+  @-webkit-keyframes mover {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  @keyframes mover {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(-20px);
+    }
+  }
