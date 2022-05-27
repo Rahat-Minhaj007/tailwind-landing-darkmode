@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/Header.css';
 import dark from '../assets/images/moon.svg';
 import light from '../assets/images/brightness.png';
 import useDarkMode from '../hooks/useDarkMode';
+import { useContext } from 'react';
+import { ThemeContext } from '../context/ThemeContext';
 const Header = () => {
   const [setTheme, colorTheme] = useDarkMode();
-  
+  const [themeMode, setThemeMode] = useContext(ThemeContext);
+  useEffect(() => {
+    setThemeMode(colorTheme)
+  }, [colorTheme])
   return (
     <header className="text-gray-600 body-font bg-green-500 dark:bg-gray-800">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">

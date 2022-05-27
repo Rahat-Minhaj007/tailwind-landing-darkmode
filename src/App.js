@@ -1,10 +1,13 @@
 import React from 'react';
+import AppProvider from './context';
 import Home from './Screens/Home';
 
 const App = () => {
   return (
     <>
-      <Home />
+      <AppProvider>
+        <Home />
+      </AppProvider>
 
     </>
   );
