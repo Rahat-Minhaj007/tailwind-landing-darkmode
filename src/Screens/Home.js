@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <>
             <Header />
-            {/* <div className='container mx-auto'> */}
+          
             <div >
                 <Hero />
                 <About />
