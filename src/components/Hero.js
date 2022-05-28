@@ -6,7 +6,7 @@ import { ThemeContext } from '../context/ThemeContext';
 import '../styles/Hero.css';
 const Hero = () => {
   const [themeMode, setThemeMode] = useContext(ThemeContext);
-  console.log(themeMode);
+
 
   return (
     <section className="text-gray-600 body-font dark:bg-gray-900" style={{ background: `url(${themeMode === 'light' ? darkHero : lightHero}) center center/cover no-repeat`,height:"92vh" }}>
