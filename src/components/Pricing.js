@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pricing = () => {
     return (
-        <section className="text-gray-600 body-font bg-gray-100 dark:bg-gray-800">
+        <section className="text-gray-600 body-font bg-gray-100 dark:bg-gray-900">
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col text-center w-full mb-20">
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900 dark:text-white">Pricing</h1>
@@ -12,10 +12,10 @@ const Pricing = () => {
                     <table className="table-auto w-full text-left whitespace-no-wrap">
                         <thead>
                             <tr>
-                                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 dark:text-white text-sm bg-gray-100 rounded-tl rounded-bl">Plan</th>
-                                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900  dark:text-white text-sm bg-gray-100">Speed</th>
-                                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 dark:text-white text-sm bg-gray-100">Storage</th>
-                                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 dark:text-white text-sm bg-gray-100">Price</th>
+                                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900  text-sm bg-gray-100 rounded-tl rounded-bl">Plan</th>
+                                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900   text-sm bg-gray-100">Speed</th>
+                                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900  text-sm bg-gray-100">Storage</th>
+                                <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900  text-sm bg-gray-100">Price</th>
                                 <th className="w-10 title-font tracking-wider font-medium text-gray-900 dark:text-white text-sm bg-gray-100 rounded-tr rounded-br"></th>
                             </tr>
                         </thead>

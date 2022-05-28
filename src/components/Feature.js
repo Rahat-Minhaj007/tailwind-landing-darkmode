@@ -2,7 +2,7 @@ import React from 'react';
 import feature from '../assets/images/feature.svg';
 const Feature = () => {
     return (
-        <section className="text-gray-600 body-font dark:bg-gray-800">
+        <section className="text-gray-600 body-font dark:bg-gray-900">
             <div className="container px-5 py-24 mx-auto flex flex-wrap">
                 <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
                     <img alt="feature" className="object-cover object-center h-50 w-50" src={feature} />

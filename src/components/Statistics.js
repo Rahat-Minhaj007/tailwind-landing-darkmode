@@ -2,7 +2,7 @@ import React from 'react';
 
 const Statistics = () => {
     return (
-        <section className="text-gray-600 body-font bg-gray-100 dark:bg-gray-800">
+        <section className="text-gray-600 body-font bg-gray-100 dark:bg-gray-900">
             <div className="container px-5 py-24 mx-auto dark:text-white">
                 <div className="flex flex-col text-center w-full mb-20">
                     <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 dark:text-white">Master Cleanse Reliac Heirloom</h1>
