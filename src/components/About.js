@@ -6,7 +6,7 @@ import about4 from '../assets/images/about4.svg';
 
 const About = () => {
     return (
-        <section className="text-gray-600 body-font dark:bg-gray-900 pt-20">
+        <section className="text-gray-600 body-font dark:bg-gray-900 pt-20 transition duration-500">
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-wrap w-full mb-20">
                     <div className="lg:w-1/2 w-full mb-6 lg:mb-0">

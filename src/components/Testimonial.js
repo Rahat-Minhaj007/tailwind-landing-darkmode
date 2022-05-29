@@ -2,7 +2,7 @@ import React from 'react';
 
 const Testimonial = () => {
     return (
-        <section className="text-gray-600 body-font bg-gray-100 dark:bg-gray-900 dark:text-white" >
+        <section className="text-gray-600 body-font bg-gray-100 dark:bg-gray-900 dark:text-white transition duration-500" >
             <div className="container px-5 py-24 mx-auto">
                 <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center dark:text-white">Testimonials</h1>
                 <div className="flex flex-wrap -m-4">
