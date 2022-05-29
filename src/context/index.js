@@ -1,10 +1,10 @@
 import ThemeProvider from "./ThemeContext";
 
-const AppProvider = ({ children = null }) => {
+const AppProvider = ({ childre = null }) => {
     return (
 
         <ThemeProvider>
-            {children}
+            {childre}
         </ThemeProvider>
 
     )
